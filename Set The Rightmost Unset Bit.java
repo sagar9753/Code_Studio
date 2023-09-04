@@ -4,7 +4,6 @@ Ques Link - https://www.codingninjas.com/studio/problems/set-the-rightmost-unset
 
 public class Solution {
     public static int setBits(int N){
-        // Write your code here.
         int num = N ;
         int count = 0;
         while(num % 2 != 0){
